@@ -1,2 +1,2 @@
-s = "s = \\nprint(f\"s = \"{s}) \nprint(f\"{s}\")"
-print(f"s = \"{s}")
+s = 's = %r\nprint(s %% s)'
+print(s % s)
